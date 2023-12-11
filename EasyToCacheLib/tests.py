@@ -1,11 +1,11 @@
 import unittest
-from easy_to_cache import Cache
+from EasyToCacheLib.easy_to_cache import Cache
 import time
 
 
 class Test(unittest.TestCase):
     def setUp(self) -> None:
-        self.cache = Cache("Data/TestFolder/test_file.json", False)
+        self.cache = Cache("EasyToCacheLib/Data/TestFolder/test_file.json", False)
 
     def test_add(self):
         self.cache.clear()

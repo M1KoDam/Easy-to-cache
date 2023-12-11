@@ -1,5 +1,5 @@
 import os
-from json_exp import *
+from EasyToCacheLib.json_exp import *
 
 
 def get_relevant_path(path: str) -> str:
